@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
+@import './assets/styles/css/ambience.scss';
+@import './assets/styles/css/light.css';
+@import './assets/styles/scss/_overrides.scss';
+
+body {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    overflow-x: hidden;
+    --trip-blue: #49b8fd;
+    --trip-blue-light: rgba(73, 184, 253, 0.07);
+    --trip-pink: #fc527f;
+    --trip-pink-light: rgba(252, 82, 127, 0.05);
+    --trip-green: #52c41a;
+    --trip-green-light: rgba(82, 196, 26, 0.05);
+    --trip-yellow: #fcd661;
+    --trip-yellow-light: rgba(252, 214, 97, 0.07);
+
+    /*Font Sizes*/
+    --fs-10: 10px;
+    --fs-11: 11px;
+    --fs-12: 12px;
+    --fs-13: 13px;
+    --fs-14: 14px;
+    --fs-16: 16px;
+    --fs-15: 15px;
+    --fs-18: 18px;
+    --fs-20: 20px;
+    --fs-25: 25px;
+    --fs-30: 30px;
+    --fs-35: 35px;
+    --fs-40: 40px;
+
+    --crimson: rgba(252, 82, 127, 1);
+    --crimson-lite: rgba(252, 82, 127, 0.02);
+    --crimson-lite-15: rgba(252, 82, 127, 0.15);
+    --red: rgba(254, 62, 88, 1);
+    --red-lite: rgba(254, 62, 88, 0.02);
+    --red-lite-15: rgba(254, 62, 88, 0.15);
+    --marvel-blue: rgba(75, 184, 253, 1);
+    --marvel-blue-lite: rgba(75, 184, 253, 0.02);
+    --marvel-blue-lite-15: rgba(75, 184, 253, 0.15);
+    --glossy-blue: rgba(45, 91, 255, 1);
+    --glossy-blue-lite: rgba(45, 91, 255, 0.02);
+    --glossy-blue-lite-15: rgba(45, 91, 255, 0.15);
+    --goldenrod: rgba(245, 189, 65, 1);
+    --goldenrod-lite: rgba(245, 189, 65, 0.02);
+    --goldenrod-lite-15: rgba(245, 189, 65, 0.15);
+    --tamed-green: rgba(8, 199, 224, 1);
+    --tamed-green-lite: rgba(8, 199, 224, 0.02);
+    --tamed-green-lite-15: rgba(8, 199, 224, 0.15);
+    --teal-green: rgba(17, 192, 204, 1);
+    --teal-green-lite: rgba(17, 192, 204, 0.02);
+    --teal-green-lite-15: rgba(17, 192, 204, 0.15);
+    --orange: rgba(255, 117, 87, 1);
+    --orange-lite: rgba(255, 117, 87, 0.02);
+    --orange-lite-15: rgba(255, 117, 87, 0.15);
+    --purple: rgba(128, 90, 213, 1);
+    --purple-lite: rgba(128, 90, 213, 0.02);
+    --purple-lite-15: rgba(128, 90, 213, 0.15);
+    --magenta: rgba(224, 44, 158, 1);
+    --magenta-lite: rgba(224, 44, 158, 0.02);
+    --magenta-lite-15: rgba(224, 44, 158, 0.15);
+    --success-green: rgba(44, 194, 156, 1);
+    --success-green-lite: rgba(44, 194, 156, 0.02);
+    --success-green-lite-15: rgba(44, 194, 156, 0.15);
+    --volcano: rgba(250, 84, 28, 1);
+    --volcano-lite: rgba(250, 84, 28, 0.02);
+    --volcano-lite-15: rgba(250, 84, 28, 0.15);
+}
+
+.App {
+    /*width: 100vw;*/
+    /*height: 100vh;*/
+    min-width: 100vw;
+    max-height: 100vh;
+    min-height: 100vh;
+    max-width: 100vw;
+    overflow-x: hidden;
+}
+
+.item-group {
+    display: flex;
+    align-items: center;
+    /* height: 50px; */
+}
+.wh-100 {
+    height: 100%;
+    width: 100%;
+}
+.w-100 {
+    width: 100%;
+}
+.h-100 {
+    height: 100%;
+}
+.heading-text {
+    color: var(--heading-color) !important;
+}
+.fw-300 {
+    font-weight: 300 !important;
+}
+.fw-400 {
+    font-weight: 400 !important;
+}
+.fw-500 {
+    font-weight: 500 !important;
+}
+.fw-600 {
+    font-weight: 600 !important;
+}
