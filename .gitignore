@@ -23,6 +23,8 @@ config/production.env
 .env.test.local
 .env.production.local
 .env.production
+.env.local
+.env.staging
 
 npm-debug.log*
 yarn-debug.log*

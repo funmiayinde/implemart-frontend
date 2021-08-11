@@ -4,8 +4,9 @@
     "private": true,
     "author": "Funmi Ayinde",
     "scripts": {
-        "dev": "react-scripts start",
+        "start": "node server.js ",
         "deploy": "git push -f heroku develop:master",
+        "dev": "react-scripts start",
         "lint": "eslint '*/**/*.{js,ts,tsx}' --quiet --fix",
         "build": "react-scripts build",
         "build:staging": "REACT_APP_ENV=staging yarn run build",
