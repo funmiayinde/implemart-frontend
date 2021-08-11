@@ -19,6 +19,7 @@ package-lock.json
 
 config/production.env
 .env.*
+.env
 .env.development.local
 .env.test.local
 .env.production.local
